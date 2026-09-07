@@ -19,7 +19,7 @@ jobs:
       # Pinned to a SHA on the per-pr-blast-radius feature branch in
       # lain's main repo. Move to @v0.7.4 (or the next tagged release)
       # when the per-PR blast-radius feature lands in a release.
-      - uses: spuentesp/lain/.github/actions/lain-health-badge@b876d4f4ba19e06f04fea65939e0bd7b274d052e
+      - uses: spuentesp/lain/.github/actions/lain-health-badge@5ca9dbe16ec548e082609675e43e557fc56b97e6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           min-fan-out: '15'
